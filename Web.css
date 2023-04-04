@@ -1,0 +1,84 @@
+body{
+    width: 95%;
+    height: 100%;
+    background-image: url("image.jpg");
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 800px;
+}
+#logo{
+    width: 100px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-top: 0px;
+}
+#logo a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: x-large;
+    font-weight: 700;
+    margin-left: 25px;
+    padding-top: 50px;
+    float: left;
+}
+ul li{
+    list-style: none;
+    padding-left: 0px;
+    margin-left: 25px;
+    margin-right: 25px;
+    float: left;
+    font-size: 17px;
+    font-weight: 600;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+ul li a:hover{
+    color: rgb(175, 18, 181);
+}
+#banner{
+    font-weight: 600;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+}
+p{
+    font-family: sans-serif;
+}
+#article{
+    margin-left: 145px;
+    margin-right: 145spx;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+}
+button{
+   background-color: rgb(10, 10, 85);
+   border: none;
+   cursor: pointer;
+   width: 180px;
+   height: 50px;
+   border-radius: 26px;
+   font-size: 19px;
+   font-weight: 600;
+   margin-left: 535px;
+}
+button:hover{
+    background-color: rgb(125, 8, 129);
+
+}
+button a{
+    text-decoration: none;
+    /* background-color: white; */
+}
+a{
+    color: rgb(102, 102, 102);
+}
+#btn-2{
+    margin-left: 10px;
+}
