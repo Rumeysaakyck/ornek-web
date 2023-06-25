@@ -2,6 +2,9 @@ body{
     width: 95%;
     height: 100%;
     background-image: url("image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 #header{
     display: flex;
